@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "#",
   resume:
-    "https://drive.google.com/file/d/1TeKDyEQMgndE5n_3k9mbCmxnc7995wPC/view?usp=sharing",
+    "https://drive.google.com/file/d/1LawLBWj8I0ez0EY_xMMQ6-s9jHgRjssw/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/marvin-limboy-137574229/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/rishav_chanda/",
@@ -111,7 +111,7 @@ export const skills = [
       {
         name: "Photoshop",
         image:
-          "https://cdn.worldvectorlogo.com/logos/adobe-photoshop-cs6.svg",
+          "https://cdn.worldvectorlogo.com/logos/photoshop-cc-4.svg",
       },
     ],
   },
@@ -121,7 +121,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://cdn.worldvectorlogo.com/logos/github-icon-2.svg",
       },
       {
         name: "GitHub",
@@ -139,16 +139,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
-      {
-        name: "Postman",
-        image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-      },
      
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://cdn.worldvectorlogo.com/logos/figma-5.svg",
       },
     ],
   },
@@ -157,7 +152,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://lu.edu.ph/wp-content/uploads/2016/11/cropped-lulogo.png",
+    img: "https://evaluation.lu.edu.ph/Assets/img/lu-logo.png",
     role: "Laguna University",
     company: "Computer Programmer",
     date: "December 2022 - December 2023",
@@ -179,7 +174,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://lu.edu.ph/wp-content/uploads/2016/11/cropped-lulogo.png",
+    img: "https://evaluation.lu.edu.ph/Assets/img/lu-logo.png",
     school: "Laguna University",
     date: "Aug 2018 - Aug 2022",
     grade: "8.71 CGPA",
@@ -206,7 +201,7 @@ export const projects = [
     description:
       "Venue Reservation System is use by Laguna University stakeholders to reserve a venue and equipments.",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1167686027087974440/image.png?ex=654f075b&is=653c925b&hm=6e0032e990ae015c1c9b34ffcacd51fcbfb5c44f1f485d3728683f343491dd6e&=&width=1180&height=632",
+      "https://media.discordapp.net/attachments/1167686003847348244/1221845893305864312/image.png?ex=66140fa9&is=66019aa9&hm=0ce9d10c136142d945f96d5fd80a6811eea3caf2e25f5f376da26d2a51bac526&=&format=webp&quality=lossless&width=1342&height=630",
     tags: [
       "Laravel",
       "MySql",
@@ -228,7 +223,7 @@ export const projects = [
     description:
       "Evaluation System is use by HR to generate reports from faculty evaluations.",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1167687387917340713/image.png?ex=654f089f&is=653c939f&hm=c69e67887c1153bd475d4fece2f8b5c2eec3fa9274e89f0029e16e801b822c18&=&width=1202&height=632",
+      "https://media.discordapp.net/attachments/1167686003847348244/1167687387917340713/image.png?ex=6610d51f&is=65fe601f&hm=13601fbede940d6f63c4d69cca64eda3bd35697055e3811407d63f32f4228bb5&=&format=webp&quality=lossless&width=1198&height=630",
       tags: [
         "Laravel",
         "MySql",
@@ -252,7 +247,7 @@ export const projects = [
     description:
       "RepairOnTheGO is an android based application that serves as a medium for both service finders and service providers For the service finders it is an app that allows them to easily search for their desired repair services, checking the technician's credentials for legitimacy, and booking for their repair services; For service providers, it is an app that allows them to promote their repair services, organize their booking schedules, and accept or decline the customer’s repair requests",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1167699186049892402/image.png?ex=654f139c&is=653c9e9c&hm=d49014863523fe65112b82f809caaabd2ab92b3d85c04393fbb30e6af2a51c7a&=&width=913&height=632",
+      "https://media.discordapp.net/attachments/1167686003847348244/1167699186049892402/image.png?ex=6610e01c&is=65fe6b1c&hm=7d218c78e5e53720c320e8e037f362daadff907927cbb7d1e82aa46eae5479f0&=&format=webp&quality=lossless&width=910&height=630",
     tags: ["Java", "XML", "Firebase", "React js"],
     category: "android app",
     github: "https://youtu.be/r7Aer7_0Xp4?si=LvXcz4MHiUKeLPzm",
@@ -266,24 +261,38 @@ export const projects = [
     description:
       "Voting System is use for student council election during my college.",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1167707185363550308/image.png?ex=654f1b0f&is=653ca60f&hm=4cb798bb02237aa2edafbf2abda89fb95b04ed74457f697a5d389c892c317fb8&=",
+      "https://media.discordapp.net/attachments/1167686003847348244/1167707185363550308/image.png?ex=6610e78f&is=65fe728f&hm=37c9c5b61d1fc4ff910d2cc812e544232cc86b135ad7ddaeb416015638bcff22&=&format=webp&quality=lossless&width=550&height=330",
     tags: ["VB", ".NET", "MySql"],
     category: "other app",
     github: "https://youtu.be/uQu1odQP4Y0?si=8z5c-1nhR2NvT4tV",
     webapp: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "LAN Based Exam System",
     date: "May 2021 - September 2021",
     description:
       "LAN Based Exam System is use for student examination in computer laboratory.",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1167710837029474385/image.png?ex=654f1e76&is=653ca976&hm=305a67e00da35336a500db1341be56cdf0278d20a807625ee89ada196ce95a35&=&width=1176&height=632",
+      "https://media.discordapp.net/attachments/1167686003847348244/1167710837029474385/image.png?ex=6610eaf6&is=65fe75f6&hm=700238ad509f57b1719c2816660faa2ecc9b34efe512ef15a2f7f2de6aac26ce&=&format=webp&quality=lossless&width=550&height=296",
     tags: ["VB", ".NET", "MySql"],
     category: "other app",
     github: "https://youtu.be/Iws6gJZ9BaA?si=wTVWWnoVZEDp-WEB",
     webapp: "#",
+  },
+
+  {
+    id: 4,
+    title: "Budget Sulit mini E-commerce",
+    date: "May 2021 - September 2021",
+    description:
+      "Small-scale online store catering to the sale of clothing items, offering both Cash on Delivery (COD) and online payment options.",
+    image:
+      "https://media.discordapp.net/attachments/1167686003847348244/1221847115945214113/image.png?ex=661410cd&is=66019bcd&hm=ac166d90278235330e48c72ed97575a7466cf915970b4016ac6de61da949df9f&=&format=webp&quality=lossless&width=1119&height=630",
+    tags: ["LARAVEL", "Bootstrap", "MySql", "JQuery", "CSS", "PHP"],
+    category: "web app",
+    github: "#",
+    webapp: "https://crazybudgetrs.online/",
   },
   
 ];
