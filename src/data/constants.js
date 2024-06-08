@@ -1,3 +1,4 @@
+import HeroImg from '../images/HeroImage.jpg'
 export const Bio = {
   name: "Marvin Limboy",
   roles: [
@@ -5,13 +6,13 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "One and a half years of experience in innovation and development of user-centered website application systems Advanced in LARAVEL, CSS, JavaScript, and numerous modern Frameworks. Skilled in partnering with cross-functional teams to create cohesive, user-centric interfaces and robust features. Enthusiastic about utilizing technology to improve user experience and business outcomes.",
   github: "#",
   resume:
     "https://drive.google.com/file/d/1LawLBWj8I0ez0EY_xMMQ6-s9jHgRjssw/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/marvin-limboy-137574229/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
+  twitter: "",
+  insta: "",
   facebook: "https://www.facebook.com/mrvnlmb/",
 };
 
@@ -128,11 +129,11 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
+      // {
+      //   name: "Docker",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      // },
     
       {
         name: "VS Code",
@@ -201,7 +202,7 @@ export const projects = [
     description:
       "Venue Reservation System is use by Laguna University stakeholders to reserve a venue and equipments.",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1221845893305864312/image.png?ex=66140fa9&is=66019aa9&hm=0ce9d10c136142d945f96d5fd80a6811eea3caf2e25f5f376da26d2a51bac526&=&format=webp&quality=lossless&width=1342&height=630",
+      "https://i.postimg.cc/3JRVS0vq/ever-1.png",
     tags: [
       "Laravel",
       "MySql",
@@ -216,14 +217,43 @@ export const projects = [
     github: "https://youtu.be/yTSYGHegV8Q",
     webapp: "https://ever.lu.edu.ph/",
   },
+  
   {
     id: 1,
+    title: "Budget Sulit E-commerce",
+    date: "May 2021 - September 2021",
+    description:
+      "Small-scale online store catering to the sale of clothing items, offering both Cash on Delivery (COD) and online payment options.",
+    image:
+      "https://i.postimg.cc/gkX4LVRG/bsulit.jpg",
+    tags: ["LARAVEL", "Bootstrap", "MySql", "JQuery", "CSS", "PHP", "JavaScript"],
+    category: "web app",
+    github: "#",
+    webapp: "https://crazybudgetrs.online/",
+  },
+
+  {
+    id: 2,
+    title: "Student Discipline Office Management System",
+    date: "May 2021 - September 2021",
+    description:
+      "The Laguna University Student Discipline Office Management System (SDOMS) is a web-based system utilized by both teaching and non-teaching personnel, as well as students, at Laguna University for the referral of student violations.",
+    image:
+      "https://i.postimg.cc/502S4Lbd/sdomd.png",
+    tags: ["LARAVEL", "Bootstrap", "MySql", "JQuery", "CSS", "PHP","JavaScript"],
+    category: "web app",
+    github: "#",
+    webapp: "https://discipline.lu.edu.ph",
+  },
+  
+  {
+    id: 3,
     title: "Evaluation System",
     date: "Jan 2023 - March 2023",
     description:
       "Evaluation System is use by HR to generate reports from faculty evaluations.",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1167687387917340713/image.png?ex=6610d51f&is=65fe601f&hm=13601fbede940d6f63c4d69cca64eda3bd35697055e3811407d63f32f4228bb5&=&format=webp&quality=lossless&width=1198&height=630",
+      "https://i.postimg.cc/qqmYB49Q/eval-1.png",
       tags: [
         "Laravel",
         "MySql",
@@ -239,15 +269,15 @@ export const projects = [
     webapp: "https://evaluation.lu.edu.ph/",
 
   },
-  
+
   {
-    id: 2,
+    id: 4,
     title: "Repair On-The-Go",
     date: "Dec 2021 - Apr 2022",
     description:
       "RepairOnTheGO is an android based application that serves as a medium for both service finders and service providers For the service finders it is an app that allows them to easily search for their desired repair services, checking the technician's credentials for legitimacy, and booking for their repair services; For service providers, it is an app that allows them to promote their repair services, organize their booking schedules, and accept or decline the customer’s repair requests",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1167699186049892402/image.png?ex=6610e01c&is=65fe6b1c&hm=7d218c78e5e53720c320e8e037f362daadff907927cbb7d1e82aa46eae5479f0&=&format=webp&quality=lossless&width=910&height=630",
+     "https://i.postimg.cc/TP8s3k48/rog-1.png",
     tags: ["Java", "XML", "Firebase", "React js"],
     category: "android app",
     github: "https://youtu.be/r7Aer7_0Xp4?si=LvXcz4MHiUKeLPzm",
@@ -255,46 +285,34 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: "Voting System",
     date: "March 2020 - May 2020",
     description:
       "Voting System is use for student council election during my college.",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1167707185363550308/image.png?ex=6610e78f&is=65fe728f&hm=37c9c5b61d1fc4ff910d2cc812e544232cc86b135ad7ddaeb416015638bcff22&=&format=webp&quality=lossless&width=550&height=330",
+      "https://i.postimg.cc/XvwzGwRr/voting-system.png",
     tags: ["VB", ".NET", "MySql"],
     category: "other app",
     github: "https://youtu.be/uQu1odQP4Y0?si=8z5c-1nhR2NvT4tV",
     webapp: "#",
   },
   {
-    id: 4,
+    id: 6,
     title: "LAN Based Exam System",
     date: "May 2021 - September 2021",
     description:
       "LAN Based Exam System is use for student examination in computer laboratory.",
     image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1167710837029474385/image.png?ex=6610eaf6&is=65fe75f6&hm=700238ad509f57b1719c2816660faa2ecc9b34efe512ef15a2f7f2de6aac26ce&=&format=webp&quality=lossless&width=550&height=296",
+      "https://i.postimg.cc/sgG8yFK9/exam-system.png",
     tags: ["VB", ".NET", "MySql"],
     category: "other app",
     github: "https://youtu.be/Iws6gJZ9BaA?si=wTVWWnoVZEDp-WEB",
     webapp: "#",
   },
 
-  {
-    id: 4,
-    title: "Budget Sulit mini E-commerce",
-    date: "May 2021 - September 2021",
-    description:
-      "Small-scale online store catering to the sale of clothing items, offering both Cash on Delivery (COD) and online payment options.",
-    image:
-      "https://media.discordapp.net/attachments/1167686003847348244/1221847115945214113/image.png?ex=661410cd&is=66019bcd&hm=ac166d90278235330e48c72ed97575a7466cf915970b4016ac6de61da949df9f&=&format=webp&quality=lossless&width=1119&height=630",
-    tags: ["LARAVEL", "Bootstrap", "MySql", "JQuery", "CSS", "PHP"],
-    category: "web app",
-    github: "#",
-    webapp: "https://crazybudgetrs.online/",
-  },
   
+
 ];
 
 // export const TimeLineData = [
