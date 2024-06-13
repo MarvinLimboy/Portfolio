@@ -228,7 +228,7 @@ export const projects = [
       "https://i.postimg.cc/gkX4LVRG/bsulit.jpg",
     tags: ["LARAVEL", "Bootstrap", "MySql", "JQuery", "CSS", "PHP", "JavaScript"],
     category: "web app",
-    github: "#",
+    github: "https://youtu.be/mAqi09FnfKM?si=Fqvyp4PJilMCquRn",
     webapp: "https://crazybudgetrs.online/",
   },
 
